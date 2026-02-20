@@ -86,16 +86,3 @@ git push heroku main
 ```
 
 The `Procfile` runs oTree's production server as a single `web` dyno — no Redis or worker dyno needed in oTree 5.
-
-## Project structure
-
-```
-my_project/
-├── settings.py            # oTree configuration
-├── pyproject.toml         # dependencies and tool config
-├── uv.lock                # locked dependency versions (commit this)
-├── .python-version        # Python version for uv and Heroku
-├── .pre-commit-config.yaml
-├── Procfile               # production server entry point
-└── <your_app>/            # add oTree apps here
-```
