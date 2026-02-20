@@ -19,10 +19,10 @@ Install `uv` (if you haven't already):
 
 1. **Get the template** — either clone the repository:
    ```sh
-   git clone <repo-url> my_project
+   git clone https://github.com/mrpg/otree-uv my_project
    cd my_project
    ```
-   or download and unzip it, then open a terminal in the resulting folder.
+   or download and unzip it ([releases](https://github.com/mrpg/otree-uv/releases)), then open a terminal in the resulting folder.
 
 2. **Install dependencies:**
    ```sh
