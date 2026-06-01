@@ -33,8 +33,9 @@ Install `uv` (if you haven't already):
 3. **Prepare git repository:**
    *If and only if you used* `git clone` *to obtain this template*, run:
    ```sh
-   uv run pre-commit install
    git remote remove origin
+   git checkout -b my-experiment  # You can replace "my-experiment" with something else
+   uv run pre-commit install
    ```
    Otherwise, just skip this step.
 
