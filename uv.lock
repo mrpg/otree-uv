@@ -126,7 +126,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "black", specifier = "==21.11b1" },
-    { name = "otree", specifier = "<6" },
+    { name = "otree", specifier = "==5.11.5" },
 ]
 
 [package.metadata.requires-dev]
